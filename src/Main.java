@@ -1,6 +1,4 @@
-import br.com.dio.desafio.dominio.Conteudo;
-import br.com.dio.desafio.dominio.Curso;
-import br.com.dio.desafio.dominio.Mentoria;
+import br.com.dio.desafio.dominio.*;
 
 import java.time.LocalDate;
 import java.util.ArrayList;
@@ -35,9 +33,37 @@ public class Main {
         //aqui no caso do List e ArrayList é a mesma coisa:
         List<String> palavras = new ArrayList<>();
 
-        System.out.println(curso);
-        System.out.println(curso2);
-        System.out.println(mentoria);
+    //    System.out.println(curso);
+    //    System.out.println(curso2);
+    //    System.out.println(mentoria);
 
+        Bootcamp bootcamp = new Bootcamp();
+        bootcamp.setNome("Bootcamp Java Developer");
+        bootcamp.setDescricao("Descrição Bootcamp Java Developer");
+        bootcamp.getConteudos().add(curso);
+        bootcamp.getConteudos().add(curso2);
+        bootcamp.getConteudos().add(mentoria);
+        System.out.println("**********************************************************************");
+        Dev devGabriel = new Dev();
+        devGabriel.setNome("Gabriel");
+        devGabriel.inscreverBootcamp(bootcamp);
+        System.out.println("Conteudos incritos Gabriel: " + devGabriel.getConteudosInscritos());
+        System.out.println("-");
+        devGabriel.progredir();
+        devGabriel.progredir();
+        System.out.println("Conteudos incritos Gabriel que ainda nao foram Concluidos: " + devGabriel.getConteudosInscritos());
+        System.out.println("Conteudos Concluidos Gabriel: " + devGabriel.getConteudosConcluidos());
+        System.out.println("XP" + devGabriel.calcularTotalXp());
+
+        System.out.println("**********************************************************************");
+        Dev devPedro = new Dev();
+        devPedro.setNome("Pedro");
+        devPedro.inscreverBootcamp(bootcamp);
+        System.out.println("Conteudos incritos Pedro: " + devPedro.getConteudosInscritos());
+        System.out.println("-");
+        devPedro.progredir();
+        System.out.println("Conteudos incritos Pedro que ainda nao foram Concluidos: " + devPedro.getConteudosInscritos());
+        System.out.println("Conteudos Concluidos Pedro: " + devPedro.getConteudosConcluidos());
+        System.out.println("XP" + devPedro.calcularTotalXp());
     }
 }
