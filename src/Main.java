@@ -1,7 +1,10 @@
+import br.com.dio.desafio.dominio.Conteudo;
 import br.com.dio.desafio.dominio.Curso;
 import br.com.dio.desafio.dominio.Mentoria;
 
 import java.time.LocalDate;
+import java.util.ArrayList;
+import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
@@ -18,11 +21,19 @@ public class Main {
         curso2.setDescricao("descriçao do curso js");
         curso2.setCargaHoraria(4);
 
-        //criando e instanciando a classe mentoria:
+        //criando e instanciando a classe Mentoria:
         Mentoria mentoria = new Mentoria();
         mentoria.setTitulo("mentoria de Java");
         mentoria.setDescricao("descrição mentoria Java");
         mentoria.setData(LocalDate.now());
+
+        //mexendo com Polimorfismo:
+        //aqui abaixo tudo que eu tenho em conteudo eu tenho em curso mais nem tudo que eu tenho em curso
+        //eu tenho em conteudo
+        Conteudo conteudo = new Curso();
+        Conteudo conteudo1 = new Mentoria();
+        //aqui no caso do List e ArrayList é a mesma coisa:
+        List<String> palavras = new ArrayList<>();
 
         System.out.println(curso);
         System.out.println(curso2);
