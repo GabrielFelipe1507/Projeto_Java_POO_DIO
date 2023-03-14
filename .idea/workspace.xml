@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="02eeb351-d240-4201-8f0a-6ac77940260a" name="Changes" comment="Classes:Atualização 2">
+    <list default="true" id="02eeb351-d240-4201-8f0a-6ac77940260a" name="Changes" comment="Classes:Atualização 2.2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/dio/desafio/dominio/Bootcamp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/dio/desafio/dominio/Bootcamp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projeto_Java_POO_DIO/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Projeto_Java_POO_DIO/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projeto_Java_POO_DIO/br/com/dio/desafio/dominio/Curso.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Projeto_Java_POO_DIO/br/com/dio/desafio/dominio/Curso.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projeto_Java_POO_DIO/br/com/dio/desafio/dominio/Mentoria.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Projeto_Java_POO_DIO/br/com/dio/desafio/dominio/Mentoria.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +87,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678803925007</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Classes:Atualização 2.2">
+      <created>1678810812393</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1678810812393</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -94,6 +102,7 @@
     <MESSAGE value="first commit1" />
     <MESSAGE value="Classes: Mentoria e Curso" />
     <MESSAGE value="Classes:Atualização 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Classes:Atualização 2" />
+    <MESSAGE value="Classes:Atualização 2.2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Classes:Atualização 2.2" />
   </component>
 </project>
